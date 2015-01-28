@@ -18,6 +18,9 @@ angular
       .when('/availabilty', {
         templateUrl: 'views/availabilty.html'
       })
+      .when('/overview', {
+        templateUrl: 'views/overview.html'
+      })
       .when('/contactus', {
         templateUrl: 'views/contactus.html'
       })
