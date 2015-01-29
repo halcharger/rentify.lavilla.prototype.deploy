@@ -15,8 +15,9 @@ angular
         templateUrl: 'views/home.html',
         controller: 'homeController'
       })
-      .when('/availabilty', {
-        templateUrl: 'views/availabilty.html'
+      .when('/availability', {
+        templateUrl: 'views/availability.html',
+        controller:'availabilityController'
       })
       .when('/overview', {
         templateUrl: 'views/overview.html'

@@ -1,12 +1,10 @@
 'use strict';
 
 angular.module('rentifylavillaprototypeApp')
-  .controller('homeController', function () {
+  .controller('availabilityController', function () {
 
-    loadHeroImg();
     initFormElements();
     initDatePickers();
     initFormValidation();
-    initBgImages();
 
   });
